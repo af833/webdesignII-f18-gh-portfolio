@@ -9,7 +9,7 @@
 header {
  width: 100%;
   padding: 15px 0px 8px 0px;
-  background-color: #efefef; 
+  background-color: #8C3636; 
   box-shadow: 0 2px 10px #cecece;
   position: fixed;
   top: 0;
@@ -18,7 +18,7 @@ header {
 
 
   .branding {
-    background: url("../images/Assets/Logo/RatpackMusic.svg") no-repeat;
+    background: url("../images/Assets/Logo/RatpackMusic2.svg") no-repeat;
     width:139px;
     float:left; 
     height: 50px;
@@ -45,6 +45,7 @@ nav li{
   padding-left: 10px; 
   cursor: pointer; 
     padding-top: 15px;
+    color:#fff;
      
 }
 nav li a:link{
@@ -69,6 +70,7 @@ nav li a:active{
 .history .timeline .members .playlist .contact{
   width: 100%;
   padding: 100px 0;
+
 }
 .history .timeline .members{
   background: lightgray;
@@ -223,6 +225,7 @@ color: #fff;
 font-weight: 600;
 font-style: italic;
 font-size: 60px;
+    color:#8C3636;
     
 }
 .hat{
@@ -405,6 +408,7 @@ background: #fff;
   font-family: Kepler Std;
   font-weight: normal;
   margin: 0;
+    text-shadow: #FC0 1px 0 10px;
 }
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
@@ -430,6 +434,7 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
     padding-bottom: 50px;
    margin-left: 260px;
     
+    
   
 }
  .members figure{ display: block; margin: 19px;
@@ -446,6 +451,7 @@ font-weight: 600;
 font-style: italic;
 font-size: 60px;
  margin-left:120px;
+    color:#8C3636;
 }
  
 .members h5{
@@ -591,7 +597,7 @@ bottom: 70px;
 ################################################################################################
 */
 .playlist{
-    background-color: #a7a7a9;
+    background-image: url("../images/Assets/Playlist/bha-vegas.jpg");
     align-content: center;
     padding:80px;
     
@@ -603,8 +609,8 @@ bottom: 70px;
 }
 .playlist p{
     color:#fff;
-    background: #a7a7a9;
     margin-top: 20px;
+    padding-left: 50px;
 }
 .playlist h2{
    text-align: center;
@@ -613,6 +619,7 @@ font-weight: 600;
 font-style: italic;
 font-size: 60px;
 color:#fff;
+text-shadow: #FC0 1px 0 10px;
 }
 iframe{
     margin-left: 160px;
@@ -819,7 +826,7 @@ form small {
 */
 .footer{
     width: 100%;
-  background-color: #efefef; 
+  background-color: #8C3636; 
   box-shadow: 0 2px 10px #cecece;
   height: auto;
 }
@@ -830,6 +837,7 @@ form small {
     font-size: 16px;
     float: left;
     padding: 20px;
+    color: white;
     
 }
 
