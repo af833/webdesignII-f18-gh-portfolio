@@ -1,0 +1,151 @@
+ figure{ display: block; margin: 19px;}
+  
+  body {
+    color: #fff;
+   
+  }
+
+  h1 {
+    font-family: Kepler std;
+    font-size: 60px;
+    margin: 20px 0 0 0;
+    text-align: center;
+
+  }
+h5{
+ position: relative;
+bottom: 70px;
+}
+
+  p {
+    padding-top: 20px;
+    padding-left: 80px;
+    color: #222;
+    font-family: oxygen;
+    font-weight: regular;
+     width:771px;
+    text-align: center;
+    text-size: 24px;
+  }
+    
+  img {
+    display: block;
+    width: 297px;
+    height: 398px;
+  }
+  
+  .wrapper {
+    overflow: hidden;
+    width: 840px;
+    margin: 0 auto;
+    padding-top:14px;
+   }
+
+  .box {
+    display:inline;
+    position: relative;
+    float: left;
+    margin-left: 19px;
+    margin-right: 0px;
+    cursor: pointer;
+    -webkit-box-shadow: #0a0908;
+    -moz-box-shadow: #0a0908;
+    box-shadow: #0a0908;
+ 
+  }
+  
+  .box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0a0908;
+    opacity: 0.5;
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  .box h5
+{
+  position:absolute;
+  top:85%;
+    width:218px;
+    height:40px;
+  text-align:left;
+  padding-left:5px;
+  color:#fff;
+  font-size:20px;
+  background: #a7a7a9;
+    
+  line-height:2.2;
+  font-family: sans-serif;
+
+   
+}
+  .box:hover:before {
+    background: none;
+  }
+  
+  .b2:before {
+    background: #0a0908;
+  }
+   .box img {
+     height:398px;
+     width:297px;
+}
+  .b3:before {
+    background: #0a0908;
+  }
+  
+  .b4:before {
+    background: #0a0908;
+  }
+  
+  .b5:before {
+    background: #0a0908;
+  }
+  
+  .b6:before {
+    background: #0a0908;
+  }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #bfc3ba;
+  opacity: 0.5;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.box:active .overlay {
+  width: 100%;
+ 
+}
+.text {
+  white-space:pre-wrap;
+  font-family:kefa; 
+  color: #000;
+  font-size: 16px;
+  padding: 10px;
+}
